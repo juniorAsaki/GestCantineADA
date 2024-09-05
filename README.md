@@ -45,7 +45,7 @@ Cloner le dépôt :
 
 bash
 Copier le code
-git clone https://github.com/votre-utilisateur/cantine-app.git
+git clone https://github.com/juniorAsaki/GestCantineADA.git
 cd cantine-app
 Configurer la base de données :
 
@@ -55,5 +55,5 @@ properties
 Copier le code
 spring.datasource.url=jdbc:mysql://localhost:3306/cantine_db
 spring.datasource.username=root
-spring.datasource.password=mot_de_passe
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=create_drop
