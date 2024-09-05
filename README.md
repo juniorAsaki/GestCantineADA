@@ -37,7 +37,7 @@ Thymeleaf : Pour les vues côté client.
 MySQL : Base de données relationnelle pour stocker les informations sur les menus et les plats.
 Installation et Configuration
 Prérequis
-Java 11 ou plus
+Java 17
 MySQL
 Maven
 Étapes d'installation
@@ -46,7 +46,7 @@ Cloner le dépôt :
 bash
 Copier le code
 git clone https://github.com/juniorAsaki/GestCantineADA.git
-cd cantine-app
+cd GestCantineADA
 Configurer la base de données :
 
 Dans le fichier application.properties (ou application.yml), configurez les paramètres de connexion à la base de données :
